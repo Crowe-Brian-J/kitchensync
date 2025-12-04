@@ -1,0 +1,15 @@
+/* App-specific styles (kept small; main styles are in index.css) */
+
+.header h1 {
+  margin: 0;
+}
+
+.add-item-form .btn-primary {
+  align-self: end;
+}
+
+@media (max-width: 768px) {
+  .add-item-form .btn-primary {
+    width: 100%;
+  }
+}
